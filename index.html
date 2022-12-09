@@ -59,17 +59,9 @@
             color: #333;
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
+            /* justify-content: space-around; */
             align-items: center;
             z-index: 9999;
-        }
-
-        .page1 {
-            background-color: burlywood;
-        }
-
-        .page2 {
-            background-color: goldenrod;
         }
     </style>
 </head>
@@ -83,21 +75,24 @@
                 <div>小楼网络</div>
                 <div style="font-size: 30px;">兴趣使然的移动端软件开发团队</div>
             </div>
-            <div class="swiper-slide page1">
-                <img src="./image//xlzj2.webp">
+            <div class="swiper-slide">
+                <img src="./image/xlzj2.webp">
             </div>
-            <div class="swiper-slide page2">
-                <img src="./image/swd.webp">
+            <div class="swiper-slide">
+                <img src="./image/swd2.webp">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/dlz.webp">
             </div>
         </div>
         <div class="swiper-pagination"></div>
     </div>
 
     <div class="foot">
-        <div>©2022 uuee.top，All Rights Reserved</div>
-        <div>E-mail：xiaolou-helper@qq.com</div>
+        <div style="width:33%;text-align: center;">©2022 uuee.top</div>
+        <div style="width:33%;text-align: center;">E-mail：xiaolou-helper@qq.com</div>
         <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank"
-            style="color:#333;">桂ICP备2022009164号-1</a>
+            style="width:33%;text-align: center;color:#333;">桂ICP备2022009164号-1</a>
     </div>
     <!-- Swiper JS -->
     <script src="./swiper-bundle.min.js"></script>
