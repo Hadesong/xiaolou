@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <meta charset="utf-8" />
+    <title>小楼网络</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css.css" />
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div>小楼网络</div>
+                <div style="font-size: 30px;">兴趣使然的软件开发团队</div>
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/xlzj2.webp">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/swd2.webp">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image/dlz.webp">
+            </div>
+
+            <div class="swiper-slide">
+                <div class="xlfy-box">
+                    <div class="xlfy-box-left">
+                        <div style="font-size: 60px;font-weight: bold;margin-bottom: 60px;">小楼翻译</div>
+                        <div>简洁高效的Windows桌面翻译软件</div>
+                        <div>开源协议：MIT</div>
+                        <a href="https://gitee.com/sinng/xiaolou-translation" target="_blank">
+                            <img src="./image/gitee.svg"
+                                style="width:140px;box-shadow: 0px 1px 3px #333;padding: 24px;border-radius:24px;" />
+                        </a>
+
+                    </div>
+                    <img src="./image/xlfy.jpg" style="width: 502px;height: 432px;" />
+                </div>
+            </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="foot">
+        <div style="width:33%;text-align: center;">©2022 uuee.top</div>
+        <div style="width:33%;text-align: center;">E-mail：xiaolou-helper@qq.com</div>
+        <a href="https://beian.miit.gov.cn/" target="_blank"
+            style="width:33%;text-align: center;color:#333;">桂ICP备2022009164号-1</a>
+    </div>
+    <!-- Swiper JS -->
+    <script src="./swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            direction: "vertical",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>

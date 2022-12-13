@@ -1,0 +1,24 @@
+{
+  "name": "xiaolouhomepage",
+  "version": "1.0.0",
+  "description": "展示页",
+  "main": "swiper-bundle.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hadesong/xiaolou.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hadesong/xiaolou/issues"
+  },
+  "homepage": "https://github.com/Hadesong/xiaolou#readme",
+  "dependencies": {
+    "koa": "^2.14.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "^8.0.0"
+  }
+}
